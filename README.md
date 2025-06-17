@@ -1,6 +1,6 @@
 ## 📘 Purpose
 
-This database is designed to provide **comprehensive indicator coverage** across all eight South Asia Region (SAR) countries, spanning both national (`admin0`) and subnational (`admin1`) levels. Each location-indicator combination includes up to two data points: one for the **most recent value** and one for the **previous value**.
+This repo is designed to provide **comprehensive indicator coverage** across all eight South Asia Region (SAR) countries, spanning both national (`admin0`) and subnational (`admin1`) levels. Each location-indicator combination includes up to two data points: one for the **most recent value** and one for the **previous value**.
 
 ---
 
@@ -26,7 +26,7 @@ In addition to subnational data, national-level data (admin0) is also included f
 
 ---
 
-### Indicator Categories
+### Indicator Categories (This section is just a placeholder until all the code is finished)
 
 Indicators are grouped by their primary data methodology. The code for each category of indicators can be found in the corresponding GitHub repository linked in the titles below.
 
