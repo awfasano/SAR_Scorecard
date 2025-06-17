@@ -26,6 +26,46 @@ In addition to subnational data, national-level data (admin0) is also included f
 
 ---
 
+### Indicator Categories
+
+Indicators are grouped by their primary data methodology. The code for each category of indicators can be found in the corresponding GitHub repository linked in the titles below.
+
+#### 🛰️ [Proxied Indicators](https://github.com/awfasano/Proxied-Calculations-SAR-Scorecard)
+
+* Percentage of population exposed to hazardous air quality
+* Population at high risk from climate-related hazards
+* Hectares of key ecosystems
+* Percentage of population with access to electricity
+* Proportion of fish stocks within biologically sustainable levels
+* Greenhouse gas emissions
+* Percentage of rural population with access to an all-season road
+* Percentage of terrestrial and marine areas protected
+
+#### 🧮 [Calculated Indicators](https://github.com/awfasano/Calculated-Indicators-SAR-Scorecard)
+
+* Gini coefficient
+* Percentage of children experiencing learning poverty
+* Average income shortfall
+* Tax Revenue as a percentage of GDP
+* Gross Domestic Product (GDP)
+
+#### 📝 [Indicators From Surveys](https://github.com/awfasano/Survey-Calculations-SAR-Scorecard)
+
+* Percentage of population with a financial account
+* Percentage of children under five who are stunted
+* Percentage of population facing food insecurity
+* Percentage of population with access to basic hygiene
+* Percentage of population using the internet
+* Poverty headcount ratio at $2.15/day
+* Poverty headcount ratio at $6.85/day
+* Percentage of population with access to basic sanitation
+* Percentage of population covered by social protection
+* Percentage of wage and salaried workers
+* Percentage of population with access to basic drinking water
+* Percentage of youth not in education, employment, or training (NEET)
+
+---
+
 ## 🗂️ Variable Descriptions
 
 | Variable Name        | Description |
