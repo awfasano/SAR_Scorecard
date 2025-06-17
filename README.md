@@ -26,18 +26,6 @@ In addition to subnational data, national-level data (admin0) is also included f
 
 ---
 
-### 🧮 Data Volume Expectation
-
-Assuming **30 indicators** and **2 measurement types** (recent and previous), the expected row count is:
-
-- **Admin0 Level**: 8 countries × 30 indicators × 2 = **480 rows**
-- **Admin1 Level**: 141 units × 30 indicators × 2 = **8,460 rows**
-
-**Total expected rows: ~8,940**  
-*(Note: actual number may differ depending on available indicators and missing values)*
-
----
-
 ## 🗂️ Variable Descriptions
 
 | Variable Name        | Description |
@@ -57,6 +45,19 @@ Assuming **30 indicators** and **2 measurement types** (recent and previous), th
 | `value`              | Measured value (may be blank if not available). |
 | `year`               | Year of the observation. |
 | `measurement_type`   | Indicates if value is `recent`, `previous`, or other metadata. |
+
+---
+
+
+### 🧮 Data Shape Expectation
+
+Assuming **30 indicators** and **2 measurement types** (recent and previous), the expected row count is:
+
+- **Admin0 Level**: 8 countries × 30 indicators × 2 = **480 rows**
+- **Admin1 Level**: 141 units × 30 indicators × 2 = **8,460 rows**
+
+**Total expected rows: ~8,940**  
+*(Note: actual number may differ depending on available indicators and missing values)*
 
 ---
 
