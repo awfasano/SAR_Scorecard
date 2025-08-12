@@ -52,7 +52,7 @@ Indicators are grouped by their primary data methodology. Links point to the rep
 
 ---
 
-## Not Included in github calculations
+## Not in github repo
 - Population at high risk from climate-related hazards  
 - Hectares of key ecosystems  
 - Proportion of fish stocks within biologically sustainable levels  
