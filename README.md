@@ -113,5 +113,3 @@ Assuming **30 indicators** and **2 measurement types** (recent and previous), th
 ## 🛠️ Future Additions
 
 - Support for **level2** (district-level) granularity as data becomes available.
-- Updates for new or revised indicators based on CSC expansion.
-- Improvements to metadata fields including `source`, `unit`, and `notes`.
