@@ -1,6 +1,6 @@
 ## 📘 Purpose
 
-This repo is designed to provide **comprehensive indicator coverage** across all eight South Asia Region (SAR) countries, spanning both national (`admin0`) and subnational (`admin1`) levels. Each location-indicator combination includes up to two data points: one for the **most recent value** and one for the **previous value**.
+This repo is designed to provide **comprehensive indicator coverage** across all eight South Asia Region (SAR) countries, spanning both national (`admin0`) and subnational (`admin1`) levels. Each location–indicator combination includes up to two data points: one for the **most recent value** and one for the **previous value**.
 
 ---
 
@@ -26,43 +26,44 @@ In addition to subnational data, national-level data (admin0) is also included f
 
 ---
 
-### Indicator Categories (This section is just a placeholder until all the code is finished)
+## Indicator Categories — Included
 
-Indicators are grouped by their primary data methodology. The code for each category of indicators can be found in the corresponding GitHub repository linked in the titles below.
+Indicators are grouped by their primary data methodology. Links point to the repositories where calculations currently live.
 
-#### 🛰️ [Proxied Indicators](https://github.com/awfasano/Proxied-Calculations-SAR-Scorecard)
+### 🛰️ Proxied Indicators — Included
+- **Exposure to hazardous air quality (PM2.5)** — https://github.com/awfasano/SAR-Scorecard-Exposure-to-Hazardous-Air-Quality/tree/main  
+- **Greenhouse gas emissions (kilotons CO₂)** — https://github.com/awfasano/sar-scorecard-ghg-emission-kilotons-co2  
+- **Rural access to an all-season road (SDG 9.1.1, RAI)** — https://github.com/awfasano/SDG-Indicator-911  
+- **Access to electricity (% of population)** — computed via Survey repo: https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
 
-* Percentage of population exposed to hazardous air quality
-* Population at high risk from climate-related hazards
-* Hectares of key ecosystems
-* Percentage of population with access to electricity
-* Proportion of fish stocks within biologically sustainable levels
-* Greenhouse gas emissions
-* Percentage of rural population with access to an all-season road
-* Percentage of terrestrial and marine areas protected
+### 🧮 Calculated Indicators — Included
+- **Gross Domestic Product (GDP)** — https://github.com/awfasano/SAR-Scorecard---GDP/tree/main  
+- **Gini coefficient** — computed via Survey repo: https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
 
-#### 🧮 [Calculated Indicators](https://github.com/awfasano/Calculated-Indicators-SAR-Scorecard)
+### 📝 Indicators From Surveys — Included
+- **Percentage of population with a financial account** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Percentage of population with access to basic hygiene** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Percentage of population using the internet** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Poverty headcount ratio at $2.15/day** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Poverty headcount ratio at $6.85/day** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Percentage of population with access to basic sanitation** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Percentage of wage and salaried workers** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Percentage of population with access to basic drinking water** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
 
-* Gini coefficient
-* Percentage of children experiencing learning poverty
-* Average income shortfall
-* Tax Revenue as a percentage of GDP
-* Gross Domestic Product (GDP)
+---
 
-#### 📝 [Indicators From Surveys](https://github.com/awfasano/Survey-Calculations-SAR-Scorecard)
-
-* Percentage of population with a financial account
-* Percentage of children under five who are stunted
-* Percentage of population facing food insecurity
-* Percentage of population with access to basic hygiene
-* Percentage of population using the internet
-* Poverty headcount ratio at $2.15/day
-* Poverty headcount ratio at $6.85/day
-* Percentage of population with access to basic sanitation
-* Percentage of population covered by social protection
-* Percentage of wage and salaried workers
-* Percentage of population with access to basic drinking water
-* Percentage of youth not in education, employment, or training (NEET)
+## Not Included in github calculations
+- Population at high risk from climate-related hazards  
+- Hectares of key ecosystems  
+- Proportion of fish stocks within biologically sustainable levels  
+- Percentage of terrestrial and marine areas protected  
+- Percentage of children experiencing learning poverty  
+- Average income shortfall  
+- Tax Revenue as a percentage of GDP  
+- Percentage of children under five who are stunted  
+- Percentage of population facing food insecurity  
+- Percentage of population covered by social protection  
+- Percentage of youth not in education, employment, or training (NEET)  
 
 ---
 
@@ -88,7 +89,6 @@ Indicators are grouped by their primary data methodology. The code for each cate
 
 ---
 
-
 ### 🧮 Data Shape Expectation
 
 Assuming **30 indicators** and **2 measurement types** (recent and previous), the expected row count is:
@@ -98,15 +98,6 @@ Assuming **30 indicators** and **2 measurement types** (recent and previous), th
 
 **Total expected rows: ~8,940**  
 *(Note: actual number may differ depending on available indicators and missing values)*
-
----
-
-## 📌 Notes on Indicators and Naming
-
-- All indicators from the **Country Scorecard (CSC)** should be represented at the national level, even when subnational data is unavailable.
-- Indicators must be included under **each outcome area**, even if repeated. This ensures filtering by any outcome area is complete.
-- For user clarity, indicator names should match those shown on the CSC site as closely as possible (e.g., prefer "Greenhouse Gas Emissions" over just "GHG Emissions").
-- Some indicators originally meant for aggregates (e.g., "countries with high inequality") are replaced with more granular equivalents like the **Gini coefficient** for country-level analysis.
 
 ---
 
