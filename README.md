@@ -38,7 +38,8 @@ Indicators are grouped by their primary data methodology. Links point to the rep
 
 ### 🧮 Calculated Indicators — Included
 - **Gross Domestic Product (GDP)** — https://github.com/awfasano/SAR-Scorecard---GDP/tree/main  
-- **Gini coefficient** — computed via Survey repo: https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Hectares of key ecosystems -- https://github.com/awfasano/millions-of-hectacres
+- **Percentage of terrestrial and marine areas protected  -- https://github.com/awfasano/millions-of-hectacres
 
 ### 📝 Indicators From Surveys — Included
 - **Percentage of population with a financial account** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
@@ -48,13 +49,14 @@ Indicators are grouped by their primary data methodology. Links point to the rep
 - **Poverty headcount ratio at $6.85/day** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
 - **Percentage of population with access to basic sanitation** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
 - **Percentage of wage and salaried workers** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
-- **Percentage of population with access to basic drinking water** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+- **Percentage of population with access to basic drinking water** — https://github.com/awfasano/Survey-Calculations-SAR-Scorecard
+- **Gini coefficient** — computed via Survey repo: https://github.com/awfasano/Survey-Calculations-SAR-Scorecard  
+  
 
 ---
 
 ## Not in github repo
 - Population at high risk from climate-related hazards  
-- Hectares of key ecosystems  
 - Proportion of fish stocks within biologically sustainable levels  
 - Percentage of terrestrial and marine areas protected  
 - Percentage of children experiencing learning poverty  
